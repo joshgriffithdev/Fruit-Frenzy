@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+}
+
+#title {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    padding-left: 33rem;
+    font-family: "modak", "sans-serif", "Arial";
+    font-size: 9rem;
+}
+
+#play {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding-left: 53.8rem;
+    padding-top: 25.4rem;
+    font-family: "Convergence", "sans-serif", "Arial";
+    font-size: 6rem;
+    z-index: 1;
+}
+
+#scores {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding-left: 51.8rem;
+    padding-top: 38.8rem;
+    font-family: "Convergence", "sans-serif", "Arial";
+    font-size: 5rem;
+    z-index: 1;
+}
+
+#credits {
+    position: absolute;
+    color: white;
+    padding-left: 1rem;
+    font-family: Arial;
+}
+
+#playButton {
+   position: fixed;
+   padding-left: 50rem;
+   padding-top: 30rem;
+}
+
+#leaderboardButton {
+    position: fixed;
+    padding-left: 50rem;
+    padding-top: 42rem;
+ }
+
+.buttonContainer {
+    position: absolute;
+    left: 48%;
+    top: 30rem;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    z-index: 2;
+}
+
+.realButton {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 10rem;
+    width: 22.3rem;
+    z-index: 3;
+}
+

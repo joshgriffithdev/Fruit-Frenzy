@@ -1,0 +1,44 @@
+#title {
+    position: absolute;
+    color: white;
+    padding-left: 33rem;
+    font-family: "modak", "sans-serif", "Arial";
+    font-size: 9rem;
+}
+
+.lbList {
+    position: absolute;
+    color: white;
+    padding-left: 60rem;
+    padding-top: 12rem;
+    font-family: "Convergence", "sans-serif", "Arial";
+    font-size: 3rem;
+}
+
+#retry {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding-left: 54.5rem;
+    padding-top: 37.8rem;
+    font-family: "Convergence", "sans-serif", "Arial";
+    font-size: 6rem;
+    z-index: 1;
+}
+
+#retryButton {
+    position: fixed;
+    padding-left: 52.5rem;
+    padding-top: 40rem;
+ }
+
+#realButton {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 10rem;
+    width: 22.3rem;
+    z-index: 1;
+    margin-top: 40rem;
+    margin-left: 52.5rem;
+}

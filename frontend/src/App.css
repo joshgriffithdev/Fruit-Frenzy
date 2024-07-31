@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+#player {
+    position: fixed;
+    margin-top: 34%;
+}
+
+#apple {
+    z-index: 1;
+    position: absolute;
+}
+
+#score {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    font-family: "Convergence", "sans-serif", "Arial";
+}
+
+#bg {
+   z-index: 3;
+}
+
+
+
+
